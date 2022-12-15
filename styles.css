@@ -16,22 +16,21 @@ li {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 156px;
+    padding: 20px 256px 0px;
     align-items: center;
 
 }
 
 .header-links {
     display: flex;
-
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header-links li {
     margin-left: 16px;
     
 }
-
-
 
 .header a {
     color: #e5e7eb;
@@ -41,4 +40,16 @@ li {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 116px 256px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero img {
+    max-height: 300px;
 }
