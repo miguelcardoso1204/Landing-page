@@ -1,5 +1,7 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -12,10 +14,31 @@ li {
 
 .header {
     background-color: #1F2937;
-    color: white;
     display: flex;
+    justify-content: space-between;
+    padding: 16px 156px;
+    align-items: center;
+
 }
+
+.header-links {
+    display: flex;
+
+}
+
+.header-links li {
+    margin-left: 16px;
+    
+}
+
+
 
 .header a {
     color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
