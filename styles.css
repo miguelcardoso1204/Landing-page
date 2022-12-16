@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto;
     margin: 0px;
     padding: 0px;
 }
@@ -16,7 +18,7 @@ li {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px 256px 0px;
+    padding: 20px 286px 0px;
     align-items: center;
 
 }
@@ -44,7 +46,7 @@ li {
 
 .hero {
     background-color: #1F2937;
-    padding: 116px 256px;
+    padding: 116px 286px;
     display: flex;
     justify-content: space-between;
 
@@ -52,4 +54,31 @@ li {
 
 .hero img {
     max-height: 300px;
+}
+
+.hero-text {
+    padding-right: 78px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    padding: 10px 42px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
 }
