@@ -185,4 +185,17 @@ li {
     height: 42px;
 }
 
-.footer 
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer a{
+    color: #e5e7eb;
+}
+
