@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     font-family: Roboto;
@@ -124,3 +124,30 @@ li {
     flex-direction: column;
     align-items:center;
 }
+
+.quote-div {
+    background-color: #e5e7eb;
+    padding: 180px 450px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 26px;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+}
+
+.signup-div {
+    padding: 180px 450px 150px;
+    background-color:#F9FAF8;
+}
+
+.box-div
