@@ -62,7 +62,7 @@ li {
 
 .hero-text h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 16px;
 }
@@ -81,4 +81,46 @@ li {
     border: none;
     font-size: 18px;
     font-weight: bold;
+}
+
+.images-div {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 380px;
+}
+
+.images-div h2 {
+    text-align: center;
+    vertical-align:middle;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 60px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-div {
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.image-and-text p {
+    font-size: 18px;
+    color: #4f4f4f;
+    text-align: center;
+    padding: 0px 29px;
+}
+
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
